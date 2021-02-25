@@ -1,9 +1,9 @@
 {
-    "id": "f8c97cf9-4e17-4244-b0fb-f540cea78153",
-    "name": "GooglePlayIncreaseRollout",
-    "friendlyName": "Google Play - Increase Rollout",
-    "description": "Increase the rollout fraction of an app previously deployed to the Google Play Store",
-    "author": "Microsoft Corporation",
+    "id": "f8c97cf9-4e17-4244-b0fb-f599cea78153",
+    "name": "GooglePlayIncreaseHaltRollout",
+    "friendlyName": "Google Play - Increase/Halt Rollout",
+    "description": "Increase/Halt the rollout fraction of an app previously deployed to the Google Play Store. Setting rollout fraction to 0 will halt the rollout",
+    "author": "Shaopeng Bu",
     "category": "Deploy",
     "visibility": [
         "Build",
@@ -15,10 +15,10 @@
     "version": {
         "Major": "2",
         "Minor": "183",
-        "Patch": "0"
+        "Patch": "90"
     },
     "minimumAgentVersion": "1.83.0",
-    "instanceNameFormat": "Increase $(packageName) rollout fraction to $(userFraction)",
+    "instanceNameFormat": "Increase/Halt $(packageName) rollout fraction to $(userFraction)",
     "inputs": [
         {
             "name": "authType",

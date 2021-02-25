@@ -1,9 +1,9 @@
 {
-  "id": "f8c97cf9-4e17-4244-b0fb-f540cea78153",
-  "name": "GooglePlayIncreaseRollout",
+  "id": "f8c97cf9-4e17-4244-b0fb-f599cea78153",
+  "name": "GooglePlayIncreaseHaltRollout",
   "friendlyName": "ms-resource:loc.friendlyName",
   "description": "ms-resource:loc.description",
-  "author": "Microsoft Corporation",
+  "author": "Shaopeng Bu",
   "category": "Deploy",
   "visibility": [
     "Build",
@@ -15,7 +15,7 @@
   "version": {
     "Major": "2",
     "Minor": "183",
-    "Patch": "0"
+    "Patch": "90"
   },
   "minimumAgentVersion": "1.83.0",
   "instanceNameFormat": "ms-resource:loc.instanceNameFormat",

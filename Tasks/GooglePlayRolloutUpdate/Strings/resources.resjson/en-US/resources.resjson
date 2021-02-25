@@ -1,7 +1,7 @@
 {
-  "loc.friendlyName": "Google Play - Increase Rollout",
-  "loc.description": "Increase the rollout fraction of an app previously deployed to the Google Play Store",
-  "loc.instanceNameFormat": "Increase $(packageName) rollout fraction to $(userFraction)",
+  "loc.friendlyName": "Google Play - Increase/Halt Rollout",
+  "loc.description": "Increase/Halt the rollout fraction of an app previously deployed to the Google Play Store. Setting rollout fraction to 0 will halt the rollout",
+  "loc.instanceNameFormat": "Increase/Halt $(packageName) rollout fraction to $(userFraction)",
   "loc.input.label.authType": "Authentication method",
   "loc.input.label.serviceEndpoint": "Service connection",
   "loc.input.help.serviceEndpoint": "Google Play service connection that is configured with your account credentials.",
