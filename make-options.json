@@ -1,8 +1,5 @@
 {
     "tasks": [
-        "GooglePlayRelease",
-        "GooglePlayReleaseBundle",
-        "GooglePlayPromote",
         "GooglePlayRolloutUpdate"
     ],
     "taskResources": [

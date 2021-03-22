@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1.0,
     "id": "google-play-halt-rollout",
-    "name": "Google Play increase/halt release rollout",
-    "version": "3.179.90",
+    "name": "Google Play update/halt release rollout",
+    "version": "3.200.2",
     "publisher": "shbu",
-    "description": "Provides task for continuous delivery to the Google Play Store from TFS/Team Services build or release definitions",
+    "description": "Provides task for Google Play in-progress release rollout user fraction update. Support setting the user fraction as 0 to halt the rollout.",
     "categories": [
         "Azure Pipelines"
     ],
@@ -19,7 +19,7 @@
         "wide": "android_wide.jpg"
     },
     "branding": {
-        "color": "#E5E5E5",
+        "color": "#85C1E9",
         "theme": "light"
     },
     "content": {
@@ -32,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/microsoft/google-play-vsts-extension"
+        "uri": "https://github.com/BryanSharp/google-play-vsts-extension/tree/halt_task"
     },
     "files": [
         {
@@ -55,10 +55,10 @@
     ],
     "links": {
         "issues": {
-            "url": "https://github.com/Microsoft/google-play-vsts-extension/issues"
+            "url": "https://github.com/BryanSharp/google-play-vsts-extension/issues"
         },
         "repository": {
-            "url": "https://github.com/Microsoft/google-play-vsts-extension"
+            "url": "https://github.com/BryanSharp/google-play-vsts-extension"
         }
     },
     "contributions": [

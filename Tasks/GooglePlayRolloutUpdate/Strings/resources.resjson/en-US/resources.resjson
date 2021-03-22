@@ -1,6 +1,6 @@
 {
   "loc.friendlyName": "Google Play - Increase/Halt Rollout",
-  "loc.description": "Increase/Halt the rollout fraction of an app previously deployed to the Google Play Store. Setting rollout fraction to 0 will halt the rollout",
+  "loc.description": "Increase/Halt the rollout fraction of an app previously deployed to the Google Play Store. Setting rollout fraction to 0 to halt the rollout",
   "loc.instanceNameFormat": "Increase/Halt $(packageName) rollout fraction to $(userFraction)",
   "loc.input.label.authType": "Authentication method",
   "loc.input.label.serviceEndpoint": "Service connection",
@@ -12,7 +12,7 @@
   "loc.input.label.track": "Track",
   "loc.input.help.track": "Track you want to publish the APK to.",
   "loc.input.label.userFraction": "Rollout fraction",
-  "loc.input.help.userFraction": "The fraction of the app's users who will receive the update. A value of `1.0` will release the app to all users.",
+  "loc.input.help.userFraction": "The fraction of the app's users who will receive the update. A value of `1.0` will release the app to all users. A value of `0` will halt the release.",
   "loc.messages.InvalidAuthFile": "Specified Auth file was invalid",
   "loc.messages.InvalidAuthFilewithName": "%s was not a valid auth file",
   "loc.messages.JsonKeyFileNotFound": "The service account JSON key file could not be found.",
